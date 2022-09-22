@@ -1,0 +1,14 @@
+@mixin font ($ff, $fs, $lh) {
+    font-family: $ff;
+    font-size: $fs;
+    line-height: $lh;
+}
+
+// color
+$red-color: #F0145A;
+$blue-hover: #0085FF;
+$link-color: #24A3FF;
+$text-grey: #B3B3BA ;
+$bg: #F5F5FA;
+$bg-grey-alt: #EDEDF7;
+$main: #323264;

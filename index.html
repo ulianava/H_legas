@@ -4,10 +4,588 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="https://kit.fontawesome.com/02bea1b06a.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <link rel="stylesheet" href="./styles/index.css">
 </head>
 <body>
+    <header >
+        <div class="gradient position-relative ">
+            <div class="container ">
+                <div class="nav-wrap row gradient position-fixed ">
+                    <div class=" fsb adapt-block">
+                        <div class="logo-wrap">
+                            <a href="./index.html" >
+                                <img src="./assets/img/Logo Min.png" alt="logo" class="logo">
+                            </a>
+                            <div id="nav-icon">
+                                <span class="white"></span>
+                                <span class="white"></span>
+                                <span class="white"></span>
+                            </div>
+                        </div>
+                        <div class="fc">
+                            <div class="first-line-wrap">
+                                <div class="first-line-block d-flex col-sm-12 col-md-9 col-lg-9 col-xl-6 col-xxl-9 col-12"> 
+                                    <div class="header-lang-wrap">
+                                        <a href="#" class="lang-link active">УК</a>
+                                        <a href="#" class="lang-link">РУ</a>
+                                        <a href="#" class="lang-link">EN</a>
+                                    </div>
+                                    <div class="header-street-wrap">
+                                        <p class="header-street">Одеса, Адміральський пр., 3</p>
+                                    </div>
+                                    <div class="header-phone-wrap">
+                                        <a href="tel:+380503901591" class="phone-number">+38 (050) 390 15 91</a>
+                                    </div>
+                                    <div class="header-fb-wrap"> 
+                                        <a href="#" target="_blank" class="fb-link"><i class="fa-brands fa-facebook"></i></a>
+                                    </div>
+                                
+                                </div>
+                            </div>
+                            <div class="second-row">
+                                <nav class="navbar ">
+                                    <ul class="fsb">
+                                        <li>
+                                            <a href="./pages/about_us.html" >о нас</a>
+                                        </li>
+                                        <li>
+                                            <a href="./pages/services.html" target="_blank">послуги</a>
+                                        </li>
+                                        <li>
+                                            <a href="./pages/team.html" >команда</a>
+                                        </li>
+                                        <li>  
+                                            <a href="./pages/Publications.html" >публікації</a>
+                                        </li>
+                                        <li>  
+                                            <a href="./pages/contact.html" >контакти</a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                     
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid pt-180">
+                <div class="first-layer">
+                    <div class="second-layer">
+                        <div class="home-page">
+                            <h2 class="text-center main-title">системний адміністратор правових рішень</h2>
+                        </div> 
+                        <div class=" position-absolute start-50 arrow-bottom-wrap">
+                            <a href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="arrow-bottom" width="42" height="42" viewBox="0 0 42 42" fill="none" style="&#10;   &#10;">
+                                <g clip-path="url(#clip0_1_613)">
+                                <circle opacity="0.5" cx="21" cy="21" r="20.5" stroke="white"/>
+                                <path d="M12 18L21 27L30 18" stroke="white" stroke-width="2"/>
+                                </g>
+                                <defs>
+                                <clipPath id="clip0_1_613">
+                                <rect width="42" height="42" fill="white"/>
+                                </clipPath>
+                                </defs> 
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="wrap-gradient">
+            </div>
+        </div>
+        
+    </header>
+    <section class="gradient-soft br-b">
+        <div class="container">
+            <div class="service-wrap">
+                <div class="d-flex">
+                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active circle-tab-btn-1" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">
+                                Послідовні
+                            </button>
+                            <label for="home-tab" class="label-circle-tab">Послідовні</label>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link circle-tab-btn-2" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">
+                                Клієнтоорієнтовані   
+                            </button>
+                            <label for="home-tab" class="label-circle-tab">Клієнтоорієнтовані</label>
+
+                        </li>
+                        <li class="nav-item " role="presentation">
+                            <button class="nav-link circle-tab-btn-3" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">
+                                Інноваційні
+                            </button>
+                            <label for="home-tab" class="label-circle-tab">Інноваційні</label>
+
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link circle-tab-btn-4" id="disabled-tab" data-bs-toggle="tab" data-bs-target="#disabled-tab-pane" type="button" role="tab" aria-controls="disabled-tab-pane" aria-selected="false" >
+                                Бізнес-орієнтовані юристи
+                            </button>
+                            <label for="home-tab" class="label-circle-tab">Бізнес-орієнтовані юристи</label>
+
+                        </li>
+                    </ul>
+                    <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+                           <h3> Перевертаємо уявлення про юридичні послуги</h3>
+                           <p>  Консолідуючи багаторічний досвід і практику, юристи компанії супроводжують складні проекти і досягають прийняття ряду важливих для галузі рішень. Багато з них формують практику застосування морського права в Україні.</p>
+                        </div>
+                        <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+                           <h3> Перевертаємо уявлення про юридичні послуги</h3>
+                           <p>  Консолідуючи багаторічний досвід і практику, юристи компанії супроводжують складні проекти і досягають прийняття ряду важливих для галузі рішень. Багато з них формують практику застосування морського права в Україні.</p>
+                        </div>
+                        <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
+                           <h3> Перевертаємо уявлення про юридичні послуги</h3>
+                           <p>  Консолідуючи багаторічний досвід і практику, юристи компанії супроводжують складні проекти і досягають прийняття ряду важливих для галузі рішень. Багато з них формують практику застосування морського права в Україні.</p>
+                        </div>
+                        <div class="tab-pane fade" id="disabled-tab-pane" role="tabpanel" aria-labelledby="disabled-tab" tabindex="0">
+                            <h3> Перевертаємо уявлення про юридичні послуги</h3>
+                           <p>  Консолідуючи багаторічний досвід і практику, юристи компанії супроводжують складні проекти і досягають прийняття ряду важливих для галузі рішень. Багато з них формують практику застосування морського права в Україні.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="services-sub-wrap">
+                <a href="./pages/services.html" class="sub-title"> 
+                    Послуги
+                    <svg class="sub-title-arrow" width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g opacity="0.5">
+                        <path d="M3.5 1.5L8 6L3.5 10.5" stroke="white" stroke-width="2"/>
+                        </g>
+                    </svg>  
+                </a>
+                <h2 class="hero-title"> 
+                    Що ми вміємо робити краще за інших?
+                </h2>
+                <div class=" row service-items-wrap pb-25">
+                    <div class="col-12 col-xl-4 col-md-6">
+                        <div class="card-mobile">
+                            <img src="./assets/img/iconfinder_shopping-purse_353439.png" class="img-card" alt="shopping">
+                            <h3 class="title-card">
+                                IT та електронна комерція
+                            </h3>
+                        </div>
+                        <p class="paragraph">
+                            Нескінчений потік договорів, податкові питання, трудові відносини, корпоративні папери — юридична робота відволікає вас від ведення бізнесу. Але роботи не так вже й багато, щоб наймати інхауз-юриста.       
+                        </p>
+
+                    </div>
+                    <div class="col-12 col-xl-4 col-md-6">
+                        <div class="card-mobile">
+                            <img src="./assets/img/case.png" class="img-card" alt="case">
+                            <h3 class="title-card">
+                                Комплексний щоденний юридичний супровід
+                            </h3>
+                        </div>
+                       
+                        <p class="paragraph mb">
+                            До того ж, з часом робота стане однотипною і нецікавою для штатного юриста. А ще ми добре знаємо, як важко в Україні знайти хорошого кандидата з досвідом у сфері інформаційних технологій.
+                        </p>
+
+                    </div>
+                     
+                    <div class="col-12 col-xl-4 col-md-6">
+                        <div class="card-mobile">
+                            <img src="./assets/img/crowdfunding 1.png" class="img-card" alt="covid">
+                            <h3 class="title-card">
+                                Структуризація корпоративних відносин
+                            </h3>
+                        </div>
+                      
+                        <p class="paragraph">
+                            Замість просто надавати юридичні послуги, ми закріпимо юриста або цілу команду, які впишуться в повсякденне життя вашої компанії.        
+                        </p>
+
+                    </div>
+                    <div class="col-12 col-xl-4 col-md-6">
+                        <div class="card-mobile">
+                            <img src="./assets/img/iconfinder_collaborative-combine-hand-together-team_3790070 1.png" class="img-card" alt="hands">
+                            <h3 class="title-card">
+                                Побудовa договірних відносин
+                            </h3>
+                        </div>
+                        <p class="paragraph">
+                            Раз на тиждень, чи тиждень на місяць у вас під боком є ваш власний юрист. Будь-хто в компанії може впіймати його біля кавоварки і просто поговорити про поточні справи замість очікування статусу update.
+
+                        </p>
+
+                    </div>
+                    <div class="col-12 col-xl-4 col-md-6">
+                        <div class="card-mobile">
+                            <img src="./assets/img/iconfinder_safety__security__shield__protection_2542039.png" class="img-card" alt="security">
+                            <h3 class="title-card">
+                                Захист бізнесу, інтелектуальної власності
+                            </h3>
+                        </div>
+                        <p class="paragraph">
+                            А весь інший час він працюватиме над новими різноплановими проектами, тому вже точно не зупиниться в професійному розвитку. Так чи інакше, на вас працюватиме весь Axon Partners замість корпоративного юриста.
+                        </p>
+
+                    </div>
+                    <div class="col-12 col-xl-4 col-md-6">
+                        <div class="card-mobile">
+                            <img src="./assets/img/iconfinder_Lawyer1_2315987 1.png" class="img-card p-22" alt="lawyer">
+                            <h3 class="title-card">
+                                Судове представництво
+                            </h3>
+                        </div>
+                        <p class="paragraph">
+                            Невелика компанія, середнього розміру, чи вже лідер ринку? Локальний бізнес або транснаціональна компанія? Маєте власний юридичний відділ, чи ні?
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="br-b br-b-1 "></div>
+    <div class="br-b br-b-2"></div>
+    <section>
+        <div class="container">
+            <!-- carousel wrap -->
+            <div class="carousel-wrap">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active bg-grey">
+                            <div class="carousel-inner-wrap  d-flex">
+                                <div class="col-4">
+                                    <img src="./assets/img/man.png"  class="photo-carousel w-100" alt="man">
+                                </div>
+                                <div class="carousel-inner-text">
+                                    <a href="./pages/team.html" class="sub-title">
+                                        команда <i class="fa-solid fa-chevron-right"></i>
+                                    </a>
+                                    <h2 class="hero-title">
+                                        Ми звикли брати на себе відповідальність та завжди гарантуємо чесну, вчасну допомогу, навіть у ситуаціях, коли більшість безсилі.
+                                    </h2>
+                                    <div class="mobile-absolute">
+                                        <h4 class="title-h4">
+                                            Олександр Олександровський
+                                        </h4>
+                                        <p class="paragraph ">
+                                            Керуючий партнер
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item bg-grey">
+                            <div class="carousel-inner-wrap  d-flex">
+                                <div class="col-4">
+                                    <img src="./assets/img/man.png"  class="photo-carousel w-100" alt="man">
+                                </div>
+                                <div class="carousel-inner-text">
+                                    <a href="./pages/team.html" class="sub-title">
+                                        команда <i class="fa-solid fa-chevron-right"></i>
+                                    </a>
+                                    <h2 class="hero-title">
+                                        Ми звикли брати на себе відповідальність та завжди гарантуємо чесну, вчасну допомогу, навіть у ситуаціях, коли більшість безсилі.
+                                    </h2>
+                                    <div class="mobile-absolute">
+                                        <h4 class="title-h4">
+                                            Олександр Олександровський
+                                        </h4>
+                                        <p class="paragraph ">
+                                            Керуючий партнер
+                                        </p>
+                                    </div>
+                                 
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item bg-grey">
+                            <div class="carousel-inner-wrap  d-flex">
+                                <div class="col-4">
+                                    <img src="./assets/img/man.png"  class="photo-carousel w-100" alt="man">
+                                </div>
+                                <div class="carousel-inner-text">
+                                    <a href="./pages/team.html" class="sub-title">
+                                        команда <i class="fa-solid fa-chevron-right"></i>
+                                    </a>
+                                    <h2 class="hero-title">
+                                        Ми звикли брати на себе відповідальність та завжди гарантуємо чесну, вчасну допомогу, навіть у ситуаціях, коли більшість безсилі.
+                                    </h2>
+                                    <div class="mobile-absolute">
+                                        <h4 class="title-h4">
+                                            Олександр Олександровський
+                                        </h4>
+                                        <p class="paragraph ">
+                                            Керуючий партнер
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- cases -wrap  -->
+            <div class="cases-wrap">
+                <div class="grid-title w-100-sm d-flex bg-grey">
+                    <h4 class="sub-title">Успішні кейси</h4>
+                </div>
+                <div class="grid-element-one w-100-sm d-col justify-content-end p-20  bg-grey">
+                    <h4 class="title-card">
+                        Супровід проекту з купівлі-продажу сільськогосподарської продукції
+                    </h4>
+                    <p class="grid-company-name paragraph">Hillel IT School</p>
+                </div>
+                <div class="grid-element-two w-100-sm d-col justify-content-end p-20  bg-grey">
+                    <h4 class="title-card">
+                        Підготовка комплексного юридичного висновку для європейського банку
+
+                    </h4>
+                    <p class="grid-company-name paragraph">WannaBiz</p>
+                </div>
+                <div class="grid-element-three w-100-sm d-col justify-content-end p-20  bg-grey">
+                    <h4 class="title-card">
+                        Супровід проекту з купівлі-продажу сільськогосподарської продукції
+                    </h4>
+                    <p class="grid-company-name paragraph">tapgerine</p>
+                </div>
+                <div class="grid-element-four w-100-sm d-col p-20 justify-content-end  bg-grey">    
+                    <h4 class="title-card">
+                        Представництво інтересів великого зернотрейдера в податковому спорі
+                    </h4>
+                    <p class="grid-company-name paragraph">3D LOOK</p>
+                </div>
+                <div class="grid-element-five w-100-sm d-col p-20 justify-content-end bg-grey">    
+                    <h4 class="title-card">
+                        Оскарження податкових повідомлень-рішень ДФС
+                    </h4>
+                    <p class="grid-company-name paragraph">adtelligent</p>
+                </div>
+                <div class="grid-element-six w-100-sm d-col p-20 justify-content-end bg-grey">    
+                    <h4 class="title-card">
+                        Супровід проекту з кредитування агротрейдерів мальтійським банком
+                    </h4>
+                    <p class="grid-company-name paragraph">Clikky</p>
+                </div>
+                
+            </div>
+        </div>
+        <!-- company wrap -->
+     
+        <div class="company-wrap">
+     
+            <div class="container-fluid">
+                <div class="company-title">
+                    <h3 class="sub-title text-center">Вже довіряють нам</h3>
+                </div>
+                <div class="row company-mobile">
+                    <div class="company-block d-col">
+                        <a href="#"><img src="./assets/img/Hillel-Logo-OneLine-White-Uk.png" class="img-company " alt="Hillel"></a>
+                    </div>
+                    <div class="company-block d-col">
+                        <a href="#"><img src="./assets/img/wannabiz.png" class="img-company" alt="wannabiz"></a>
+                    </div>
+                    <div class="company-block d-col">
+                        <a href="#"><img src="./assets/img/tapgerine.png" class="img-company" alt="tapgerine"></a>
+                    </div>
+                    <div class="company-block d-col">
+                        <a href="#"><img src="./assets/img/3dlook.png" class="img-company" alt="3dlook"></a>
+                    </div>
+                    <div class="company-block d-col">
+                        <a href="#"><img src="./assets/img/orangear.png" class="img-company" alt="orangear"></a>
+                    </div>
+                    <div class="company-block d-col">
+                        <a href="#"><img src="./assets/img/adtell.png" class="img-company" alt="adtell"></a>
+                    </div>
+                    <div class="company-block d-col">
+                        <a href="#"><img src="./assets/img/clickky.png" class="img-company" alt="clickky"></a>
+                    </div>
+                    <div class="company-block d-col">
+                        <a href="#"><img src="./assets/img/ecolease.png" class="img-company" alt="ecolease"></a>
+                    </div>
+                    <div class="company-block d-col">
+                        <a href="#"><img src="./assets/img/infratek.png" class="img-company" alt="infratek"></a>
+                    </div>
+                    <div class="company-block d-col">
+                        <a href="#"><img src="./assets/img/city park.png" class="img-company" alt="city park"></a>
+                    </div>  
+                    <div class="company-block d-col">
+                        <a href="#"><img src="./assets/img/artprint.png" class="img-company" alt="artprint"></a>
+                    </div>
+                    <div class="company-block d-col">
+                        <a href="#"><img src="./assets/img/ultimatecard.png" class="img-company p-22" alt="ultimatecard"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section >
+        <div class="bg-grey position-relative publication-wrap-container ">
+            <div class="container">
+                <div class="publication-wrap position-relative">
+                    <div class="publication-title">
+                        <a href="./pages/Publications.html" class="sub-title">
+                            Публікації <i class="fa-solid fa-chevron-right"></i>
+                        </a>
+                        <h2 class="hero-title">
+                            Нам э що розказати
+                        </h2>
+                    </div>
+                    <div class="publication-card-wrap">
+                        <a href="./pages/Publications.html" class="publication-card-one" >
+                            <div class=" bg-white">
+                                <div class="publication-card">
+                                    <div class="p-20">
+                                        <h4 class="title-h4">
+                                            Валютний контроль помер, хай живе валютний контроль!
+                                        </h4>
+
+                                        <p class="card-date">
+                                            14 червня
+                                        </p>
+                                        <p class="card-content">
+                                            Експерти проводять конференції, круглі столи та іншого штибу заходи на тему «лібералізація валютного законодавства». Юристи-експерти-новелісти стирають пальці об «ctrl+c/ctrl+v».
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="./pages/Publications.html" class="publication-card-two" >
+                            <div class=" bg-white">
+                                <div class="publication-card">
+                                    <div>
+                                        <img src="./assets/img/public-event.png" alt="public-event" class="img-fluid"  >
+                                    </div>
+                                    
+                                    <div class="p-20">
+                                        <h4 class=" title-h4">
+                                            Equity associate
+                                        </h4>
+                                        <p class="card-date">
+                                            22 квітня
+                                        </p>
+                                        <p class="card-content">
+                                            На проектах я джун. При цьому я співвласник юридичної фірми. Як це відбулося. Перед вступом батьки мені казали, що якщо буду…
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="./pages/Publications.html" class="publication-card-three" >
+                            <div class="publication-card bg-white">
+                                <div class="col-12">
+                                    <img src="./assets/img/GDPR.png" alt="GDPR" class="img-fluid" >
+                                </div>
+                                <div class="p-20"> 
+                                    <h4 class="title-h4">
+                                        Штраф для «Корпорації добра»: що буде з Google та іншими за порушення GDPR
+                                    </h4>
+                                    <p class="card-date">
+                                        29 вересня
+                                    </p>
+                                    <p class="card-content">
+                                        І чому стягнення у 50 млн євро може стати доленосним прецедентом За матеріалами Mind.ua 21 січня Національна комісія із захисту даних.
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="./pages/Publications.html" class="publication-card-four">
+                            <div >
+                                <div class="publication-card bg-white">
+                                    <div class="col-12">
+                                        <img src="./assets/img/public-img-group-of-people.png" class="img-fluid" alt="people">
+                                    </div>
+                                    <div class=" p-20 ">
+                                        <h4 class="title-h4">
+                                            Заповіт міленіала
+                                        </h4>
+                                        <p class="card-date">
+                                            19 серпня
+                                        </p>
+                                        <p class="card-content">
+                                            Що і як передаватимуть у спадщину сучасні влогери, опініон лідери і криптомільйонери Типовий спадок українського покоління Х виглядає так: квартира у…
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="./pages/Publications.html"class="publication-card-five" >
+                            <div class=" bg-white">
+                                <div class="col-12">
+                                    <img src="./assets/img/kiev.png" alt="kiev" class="img-fluid">
+                                </div>
+                                <div class="p-20">
+                                    <h4 class="title-h4">
+                                        Закон про мови: як зробити свій сайт відповідним
+                                    </h4>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="./pages/Publications.html" class="publication-card-six">
+                            <div class=" bg-white">
+                                <div class="col-12">
+                                    <img src="./assets/img/boy-with-guitar.png" alt=" boy-with-guitar" class="img-fluid">
+                                </div>
+                                <div class="p-20">
+                                    <h4 class="title-h4">
+                                        Компенсація витрат на навчання дитини в дитячому садку та школі
+                                    </h4>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                
+                    <a href="../pages/Publications.html" class="btn-blue position-absolute ">
+                        Ще публікації
+                    </a>
+          
+                </div>
+            
+          </div>
+            <div class="wrap-gradient">
+                
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="bg-grey">
+            <div class="container">
+                <div class="fsb align-items-start footer-wrap">
+                    <div class="d-col mobile-footer-md">
+                        <div class="fsb first-row">
+                            <div class="header-street-wrap">
+                                <p class="header-street">Одеса, Адміральський пр., 3</p>
+                            </div>
+                            <div>
+                                <a href="https://goo.gl/maps/MoCqf76anFMqLjZ88" target="_blank" class="active-link map-link">Подивитися на мапі</a>
+                            </div>                  
+                        </div>
+                        <div class="fsb first-row">
+                            <div class="header-fb-wrap">
+                                <a href="#" target="_blank" class="fb-link"><i class="fa-brands fa-facebook"></i></a>
+                            </div>
+                            <div class="header-phone-wrap">
+                                <a href="tel:+380503901591" class="phone-number">+38 (050) 390 15 91</a>
+                            </div>
+                            <div>
+                                <a href="mailto:contact@hlegals.net" class="active-link">contact@hlegals.net</a>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="credits">© 2021 ТОВ Юридична компанія «HLEGALS»</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+
     <script src="./script/bootstrap.bundle.min.js"></script>
 </body>
 </html>
