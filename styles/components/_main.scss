@@ -3,13 +3,15 @@
     margin: 0;
     padding: 0;
     list-style: none;
-    text-decoration: none !important;
+    text-decoration: none;
     font-family: "TTN";
 }
 *::before, *::after{
     display: inline-block;
 }
-
+a{
+    text-decoration: none;
+}
 .gradient{
     background: linear-gradient(128.63deg, #323264 0%, #323264 73.96%, #A54B5F 100%);
 }
